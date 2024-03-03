@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="11633172-c5ba-4130-938f-679ff2f8fdf8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_learn/FirstSpring/job/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_learn/FirstSpring/job/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_learn/FirstSpring/job/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_learn/FirstSpring/job/JobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_learn/FirstSpring/job/impl/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_learn/FirstSpring/job/impl/JobServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/elvin/Documents/springboot-youtube/FirstSpring"
   }
 }]]></component>
