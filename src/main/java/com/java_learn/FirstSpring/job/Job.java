@@ -1,15 +1,36 @@
 package com.java_learn.FirstSpring.job;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class Job {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private  String title;
     private  String description;
     private String minSalary;
     private String maxSalary;
+    private String location;
+
+    public Job() {
+        // default constructor is a must for JPA
+    }
+
+    public Job(Long id, String title) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.minSalary = minSalary;
+        this.maxSalary = maxSalary;
+        this.location = location;
+    }
     public Long getId() {
         return id;
     }
-
 
     public void setId(Long id) {
         this.id = id;
@@ -56,17 +77,6 @@ public class Job {
     }
 
 
-
-    public Job(Long id, String title) {
-        this.id = id;
-        this.title = title;
-        this.description = description;
-        this.minSalary = minSalary;
-        this.maxSalary = maxSalary;
-        this.location = location;
-    }
-
-    private String location;
 
 
 }
