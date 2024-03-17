@@ -1,5 +1,6 @@
 package com.java_learn.FirstSpring.job;
 
+import com.java_learn.FirstSpring.company.Company;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
